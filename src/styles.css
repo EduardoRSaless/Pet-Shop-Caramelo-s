@@ -1,0 +1,539 @@
+body{
+  overflow-x: hidden;
+  font-family: 'MinhaFonte', sans-serif;
+}
+
+.iconPerfil{
+  position: absolute;
+  left: 1300px;
+  top: 40px;
+}
+
+@font-face {
+  font-family:'MinhaFonte';
+  src: url(Urbanist-Thin.ttf);
+}
+
+/* Frame 1 */
+.frame-1 {
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+  background: #ffffff;
+}
+
+/* background2 */
+.background-1 {
+  position: absolute;
+  width: 1920px;
+  height: 800px;
+  left: -10px;
+  top: 15px;
+  background: rgb(255, 102, 0);
+}
+
+/* Rectangle 1 */
+.rectangle-1 {
+  position: absolute;
+  height: 10px;
+  left: -10px;
+  top: 0px;
+  background: #ffffff;
+}
+
+.rectangletop{
+  position: absolute;
+  width: 1920px;
+  height: 50px;
+  left: -10px;
+  top: 30px;
+  background: #FFFFFF;
+}
+
+.shop{
+  position: absolute;
+  left: 400px;
+  top: 100px;
+}
+
+.promoção{
+  position: absolute;
+  left: 600px;
+  top: 100px;
+}
+
+.brinquedos{
+  position: absolute;
+  left: 800px;
+  top: 100px;
+}
+
+.acessório{
+  position: absolute;
+  left: 1000px;
+  top: 100px;
+}
+
+.entrar{
+  position: absolute;
+  left: 1340px;
+  top: 10px;
+}
+
+.cadastrar{
+  position: absolute;
+  left: 1340px;
+  top: 30px;
+}
+
+.banhoTosa{
+  position: absolute;
+  left: 500px;
+  top: 170px;
+}
+
+.veterinario{
+  position: absolute;
+  left: 700px;
+  top: 170px;
+}
+
+.adote{
+  position: absolute;
+  left: 900px;
+  top: 170px;
+}
+
+.produtos{
+  position: absolute;
+  left: 170px;
+  top: 850px;
+  font-family: 'MinhaFonte2', sans-serif;
+}
+
+.star{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 520px;
+  top: 868px;
+}
+
+@font-face {
+  font-family:'MinhaFonte2';
+  src: url(Urbanist-Black.ttf);
+}
+/* Rectangle 3 */
+.rectangle-3 {
+  position: absolute;
+  width: 1200px;
+  height: 200px;
+  left: 170px;
+  top: 210px;
+  background: #D9D9D9;
+  border-radius: 20px;
+}
+
+/* background2 */
+.background-2 {
+  position: absolute;
+  width: 1920px;
+  height: 1000px;
+  left: -10px;
+  top: 810px;
+  background: rgb(255, 102, 0);
+}
+
+/* Rectangle 23 */
+.rectangle-23 {
+  position: absolute;
+  width: 333px;
+  height: 280px;
+  left: 843px;
+  top: 340px;
+  border-radius: 20px;
+}
+
+/* Rectangle 8 */
+.rectangle-8 {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  left: 165px;
+  top: 900px;
+  background: #FFFFFF;
+  border-radius: 20px;
+}
+
+/* Rectangle 11 */
+.rectangle-11 {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  left: 165px;
+  top: 1300px;
+  background: #FFFFFF;
+  border-radius: 20px;
+}
+
+/* Rectangle 9 */
+.rectangle-9 {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  left: 600px;
+  top:  900px;
+  background: #FFFFFF;
+  border-radius: 20px;
+}
+
+/* Rectangle 12 */
+.rectangle-12 {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  left: 600px;
+  top: 1300px;
+  background: #FFFFFF;
+  border-radius: 20px;
+}
+
+/* Rectangle 10 */
+.rectangle-10 {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  left: 1020px;
+  top:  900px;
+  background: #FFFFFF;
+  border-radius: 20px;
+}
+
+/* Rectangle 13 */
+.rectangle-13 {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  left: 1020px;
+  top: 1300px;
+  background: #FFFFFF;
+  border-radius: 20px;
+}
+
+/* Rectangle 25 */
+.rectangle-25 {
+  position: absolute;
+  width: 250px;
+  height: 200px;
+  left: 165px;
+  top: 500px;
+  background: #D9D9D9;
+  border-radius: 20px;
+}
+
+/* Rectangle 26 */
+.rectangle-26 {
+  position: absolute;
+  width: 250px;
+  height: 200px;
+  left: 480px;
+  top: 500px;
+  background: #D9D9D9;
+  border-radius: 20px;
+}
+
+/* Rectangle 27 */
+.rectangle-27 {
+  position: absolute;
+  width: 250px;
+  height: 200px;
+  left: 800px;
+  top: 500px;
+  background: #D9D9D9;
+  border-radius: 20px;
+}
+
+/* Rectangle 28 */
+.rectangle-28 {
+  position: absolute;
+  width: 250px;
+  height: 200px;
+  left: 1115px;
+  top: 500px;
+  background: #D9D9D9;
+  border-radius: 20px;
+}
+
+.search-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 500px;
+  height: 30px;
+  border-radius: 50px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  padding-left: 70px;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #215894;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.7s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #7dbcff;
+}
+
+.imgPesquisa{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 420px;
+  top: 30px;
+}
+
+.quadrado1{
+  position: absolute;
+  width: 130px;
+  height: 50px;
+  left: 489px;
+  top: 175px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.quadrado2{
+  position: absolute;
+  width: 130px;
+  height: 50px;
+  left: 676px;
+  top: 175px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.quadrado3{
+  position: absolute;
+  width: 130px;
+  height: 50px;
+  left: 860px;
+  top: 175px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+.imgCachorro {
+  position: absolute;
+  width: 250px;
+  height: 200px;
+  left: 173px;
+  top: 572px;
+  border-radius: 20px;
+  transition: transform 0.7s ease;
+}
+
+.imgCachorro:hover {
+  transform: scale(1.1);
+}
+
+.imgGato{
+  position: absolute;
+  width: 250px;
+  height: 200px;
+  left: 488px;
+  top: 572px;
+  border-radius: 20px;
+  transition: transform 0.7s ease; 
+}
+
+.imgGato:hover {
+  transform: scale(1.1); /* Aumenta o tamanho em 10% */
+}
+
+.imgPeixe{
+  position: absolute;
+  width: 250px;
+  height: 200px;
+  left: 808px;
+  top: 572px;
+  border-radius: 20px;
+  transition: transform 0.7s ease; 
+}
+
+.imgPeixe:hover {
+  transform: scale(1.1); /* Aumenta o tamanho em 10% */
+}
+
+.imgPassaro{
+  position: absolute;
+  width: 250px;
+  height: 200px;
+  left: 1123px;
+  top: 572px;
+  border-radius: 20px;
+  transition: transform 0.7s ease; 
+}
+
+.imgPassaro:hover {
+  transform: scale(1.1); /* Aumenta o tamanho em 10% */
+}
+
+.imgraçãocachorro{
+  position: absolute;
+  width: 200x;
+  height: 200px;
+  left: 280px;
+  top: 1020px;
+  background: #FFFFFF;
+  border-radius: 20px;
+}
+
+.imgraçãoGato{
+  position: absolute;
+  width: 200x;
+  height: 200px;
+  left: 720px;
+  top: 1020px;
+  background: #FFFFFF;
+  border-radius: 20px;
+}
+
+.imgraçãoPassaro{
+  position: absolute;
+  width: 200x;
+  height: 200px;
+  left: 1120px;
+  top: 1020px;
+  background: #FFFFFF;
+  border-radius: 20px;
+}
+
+.casacachorro{
+  position: absolute;
+  width: 200x;
+  height: 200px;
+  left: 250px;
+  top: 1420px;
+  background: #FFFFFF;
+  border-radius: 20px;
+}
+
+.casaGato{
+  position: absolute;
+  width: 200x;
+  height: 200px;
+  left: 710px;
+  top: 1420px;
+  background: #FFFFFF;
+  border-radius: 20px;
+}
+
+.casaPassaro{
+  position: absolute;
+  width: 200x;
+  height: 200px;
+  left: 1110px;
+  top: 1420px;
+  background: #FFFFFF;
+  border-radius: 20px;
+}
+
+.stars{
+  position: absolute;
+  width: 200px;
+  left: 250px;
+  top: 1250px;
+}
+
+.stars2{
+  position: absolute;
+  width: 200px;
+  left: 680px;
+  top: 1250px;
+}
+
+.stars3{
+  position: absolute;
+  width: 200px;
+  left: 1105px;
+  top: 1250px;
+}
+
+.stars4{
+  position: absolute;
+  width: 200px;
+  left: 250px;
+  top: 1650px;
+}
+
+.stars5{
+  position: absolute;
+  width: 200px;
+  left: 250px;
+  top: 1650px;
+}
+
+.stars6{
+  position: absolute;
+  width: 200px;
+  left: 690px;
+  top: 1650px;
+}
+
+.stars7{
+  position: absolute;
+  width: 200px;
+  left: 1110px;
+  top: 1650px;
+}
+
+.container {
+  width: 500px; 
+  height: 300px;
+  overflow-x: auto; 
+  overflow-y: hidden; 
+}
+
+.content {
+  width: 1000px; 
+  height: 300px;
+}
+
+::-webkit-scrollbar {
+  width: 10px; 
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 5px; 
+}
+
+.logo{
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  left: 20px;
+  top: -25px;
+}
+
+.banner{
+  position: absolute;
+  width: 1200px;
+  height: 201px;
+  left: 178px;
+  top: 281px;
+  border-radius: 20px;
+}

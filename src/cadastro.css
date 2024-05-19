@@ -1,0 +1,102 @@
+body {
+    background: rgb(255, 102, 0);
+    margin: 0;
+    padding: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 89vh;
+    font-family: 'MinhaFonte', sans-serif;
+}
+
+@font-face {
+    font-family:'MinhaFonte';
+    src: url(Urbanist-Thin.ttf);
+}
+
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.logo {
+    margin-bottom: 50px;
+    width: 300px;
+    height: 250px;
+}
+
+.form-container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: slide-in 0.5s ease forwards;
+    margin-top: -100px;
+}
+
+@keyframes slide-in {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+h2 {
+    text-align: center;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 12px;
+}
+
+label {
+    font-weight: bold;
+    color: #333333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 15px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.button-cadastrar {
+    width: 100%;
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 15px 0;
+    margin: 8px 0; /* Adicionando margem vertical */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+
