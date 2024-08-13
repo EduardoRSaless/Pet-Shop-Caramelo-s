@@ -1,8 +1,25 @@
-# Sobre o projeto
-Projeto utilizando html e CSS, onde foi implementado a estrutura do código para um site de um pet-shop 
+# Pet Shop
 
+Este projeto é um sistema de gerenciamento para um Pet Shop, desenvolvido utilizando Java, MySQL, HTML e CSS.
 
+## Estrutura do Projeto
 
+- **/src**: Código-fonte e recursos do projeto.
+- **/lib**: Bibliotecas externas.
+- **/sql**: Scripts SQL para o banco de dados.
+- **/docs**: Documentação.
+
+## Tecnologias Utilizadas
+
+- Java
+- MySQL
+- HTML/CSS
+
+## Como Executar
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/petshop.git
 Imagens:
 
 
